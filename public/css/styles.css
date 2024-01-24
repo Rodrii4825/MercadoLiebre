@@ -1,0 +1,399 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #ebebeb;
+    }
+    .hola{
+        font-size: 200px;
+    }
+    
+    /*Colores a usar:
+    Amarillo: #EAC926;
+    Azul: #03264C;
+    Celeste: #1259c3;
+    Gris oscuro: #666;
+    Gris claro: #ebebeb;
+    Verde: #39b54a; */
+
+    header{
+        background-color: #EAC926;
+        padding-bottom: 15px;
+    }
+   
+    .logo-search{
+        display: flex;
+        align-items: center;
+        width: 100vw;
+    }
+    .logo{
+        width: 50vw;
+    }
+    .logo img{
+        width: 80%;
+        padding: 10px;
+    }
+    .search{
+        width: 50vw;
+        display: flex;
+        justify-content: flex-start;
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        margin-right: 5px;
+    }
+    .input-search{
+        border: none;
+        width: 90%;
+        padding: 3px;
+        font-size: 1em;
+    }
+    .button-search{
+        background-color: transparent;
+        border: none;
+        margin-left: 5px;
+    }
+    .payment-methods{
+        display: flex;
+        justify-content: center;
+    }
+    .payment-methods i{
+        margin: 0 10px;
+    }
+    .payment-methods p{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    
+    .burger-menu{
+        display: block;
+        margin: auto;
+        font-size: 20px;
+        padding: 4px 10px;
+        background-color: #1259c3;
+        border-radius: 5px;
+        color: white;
+        border: none;
+    }
+    main{
+        width: 90%;
+    margin: 0 auto;
+    }
+    
+    .banner{
+        width: 100%;
+    }
+    .banner img{
+        width: 100%;
+    }
+    h3{
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        color: #666;
+
+    }
+    .fa-truck, .oferta{
+        color: #39b54a;
+    }
+    .price{
+        font-size: 18px;
+        width: 30%;
+    }
+    .oferta{
+        font-size: 16px;
+        width: 70%;
+        
+    }
+    .icons{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        bottom: 5.5em;  
+        transition: transform 0.3s ease
+    }
+    .icons:hover{
+        transform: rotate(-90deg);
+    }
+    .info-product{
+        position: relative;
+        border: 1px solid #ebebeb ;
+        margin-bottom: 10px;
+    }
+    .info-product:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+    }
+    .img-product{
+        display: flex;
+        justify-content: center;
+    }
+    .img-product img{
+        width: 100%;
+    }
+    .price-oferta{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .info{
+        background-color: white;
+        margin-top: 5px;
+        padding: 15px;
+    }
+    .description{
+        font-size: 16px;
+        display: none;
+    }
+    .description:hover{
+        display: block;
+    }
+    footer{
+        background-color: white;
+        padding: 10px;
+    }
+    .information i{
+        color: #1259c3;
+        font-size: 2em;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .information i:hover{
+        color: black;
+    }
+    .information{
+        color: #666;
+        text-align: center;
+        margin: 3px;
+    }
+    h6{
+        font-weight: lighter;
+        color: #666;
+        text-align: center;
+        margin: 3px;
+    }
+    .info-footer{
+        margin-bottom: 10px;
+    }
+    .register-login{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 50px;
+        width: 100%;
+    }
+    .login input{
+        width: 50vw;
+        height: 40px;
+        display: flex;
+        background-color: white;
+        padding: 5px;
+        margin: 10px;
+        border-radius: 5px;
+        margin-right: 5px;
+        border: #ebebeb solid 2px;
+    }
+    .register-login button:hover{
+        background-color: #0022AA;
+    }
+    .login button{
+        width: 50vw;
+        height: 40px;
+        display: flex;
+        background-color: #1259c3;
+        padding: 5px;
+        margin: 10px;
+        margin-top: 3em;
+        border-radius: 5px;
+        margin-right: 5px;
+        justify-content: center;
+        color: white;
+    }
+    .register{
+        width: 100%;
+        border: #ebebeb 1px solid;
+        padding: 10px;
+        margin: 20px 0;
+    }
+    .profile{
+        display: flex;
+        margin: 15px;
+    }
+    .buyer-seller{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+    }
+    .profile label{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .interests{
+        width: 100%;
+       display: flex;
+       flex-direction: column
+    }
+    .register-interests{
+        margin: 12px;
+    }
+    .register-interests input{
+        margin-right: 15px;
+    }
+    .file{
+        width: 100%;
+        margin: 20px;
+    }
+    .register-submit{
+        width: 100%;
+        border: #ebebeb 1px solid;
+        padding: 10px;
+        margin: 25px 0;
+        border-radius: 5px;
+        background-color: #1259c3;
+    }
+    .register-reset{
+        width: 100%;
+        border: #ebebeb 1px solid;
+        padding: 10px;
+        margin: 25px 0;
+        border-radius: 5px;
+        background-color: #d41a0c;
+    }
+    @media (min-width: 769px){
+        .header-logo-search-pay{
+            display: flex;
+            justify-content: space-around;
+            align-content: center;
+            padding-bottom: 10px
+        }
+        .logo-search{
+            width: 72vw
+        }
+        .logo img{
+            width: 25em;
+            padding: 30px
+        }
+        .input-search{
+            width: 95%;
+            font-size: 1em
+        }
+        .payment-methods p{
+            font-size: 1em
+        }
+        .payment-methods i{
+        margin-left: 30px;
+        }
+        .payment-methods{
+            width: 30vw;
+            align-items: center;
+            justify-content: center;
+        }
+        .nav-bar{
+            display: flex;
+            justify-content: space-between;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            align-self: center;
+        }
+        ul li{
+            padding: 5px;
+        }
+        .burger-menu{
+            display: none;
+        }
+        .all-products{
+            display: flex;
+            flex-wrap: wrap; 
+        }
+        .info-product{
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            width: 45%;
+            margin: 15px;
+        }
+        .img-product{
+            padding: 0;
+        }
+        .price-oferta{
+            background-color: white;
+            margin: 0;
+            padding: 15px;
+        }
+        .oferta{
+            position: relative;
+            left: 22px;
+        }
+        .description{
+            display: block;
+        }
+       .info-footer-liebre{
+        margin-top: 20px;
+        display: flex;
+       }
+    
+    }
+    @media (min-width: 1200px){
+        .header-logo-search-pay{
+            display: flex;
+            justify-items: center;
+        }
+        .input-search{
+            width: 100%;
+            padding: 4px;
+        }
+        .payment-methods p{
+            font-size: 1rem;
+        }
+        .payment-methods i{
+            margin-right: 15px;
+        }
+        ul li{
+            padding: 20px;
+        }
+        .all-products{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .info-product{
+            width: 22%;
+        }
+        .form-register{
+            padding: 0 300px;
+        }
+        .submit-reset{
+            display: flex;
+            flex-direction: row;
+        }
+        .register-submit{
+            width: 40em;
+        }
+        .register-reset{
+            margin-left: 20px;
+        }
+      
+    }
